@@ -666,20 +666,21 @@
 label {
     margin-bottom: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.modal-dialog {
+    max-width: 600px;
+}
+.modal-dialog.modal-sm {
+    max-width: 300px;
+}
+.modal-dialog.modal-lg {
+    max-width: 900px;
+}
+.modal-dialog.modal-xl {
+    max-width: 1200px;
+}
+.modal-dialog.modal-fullscreen {
+    max-width: unset;
+}
 
 /* Media CSS */
 @media (max-width:1280px) {}
