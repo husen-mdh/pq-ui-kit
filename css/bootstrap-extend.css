@@ -96,6 +96,16 @@
     font-size: 16px;
 }
 
+.btn-sm {
+    line-height: 20px;
+    font-size: 13px;
+    height: 28px;
+}
+
+table i {
+    padding: 3px;
+}
+
 .btn.focus,
 .btn:focus {
     box-shadow: none !important;
